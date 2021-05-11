@@ -1,0 +1,14 @@
+{
+    "plugins": [
+        "@babel/plugin-proposal-class-properties", { "loose": true },
+        "@babel/plugin-proposal-decorators"  , {"legacy": true}
+    ],
+
+    "compilerOptions": {
+        "target": "es2015",
+        "experimentalDecorators": true
+    }, 
+    
+}
+//Para poder usar litelement con decoradores es necesario realizar 
+//un jsconfig y en el archivo añadir los plugins y la opcion de compiladores para actualizar los decoradores a true . 
